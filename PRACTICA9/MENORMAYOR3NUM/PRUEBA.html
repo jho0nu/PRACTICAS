@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="estilo.css">
+		<link href="https://fonts.googlepis.com/css2?family=Rajdhani:wght@300&family=Raleway:wght@100&display=swap">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sah512-iecdLmaskl7CVkqkXkXNQ/ZH/XLvWZOJyj7Y7TCEM,Pd1YPasOZPMt/E0iPtmDFlB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-reffer"/>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+		<title>MENOR</title>
+	</head>
+
+	<body>
+		<div class="contenedor">
+			<form action="guarda.php" class="form" id="form" name="insertar" method="POST">
+				<p class"form-titulo">
+					<center>MENOR</center></p>
+
+				<div class="form-input num1">
+					<input type="text" id="numero1" name="numero1">
+					<label for="num1">NUMERO 1</label>
+				</div>
+				
+				<div class="form-input num2">
+					<input type="text" id="numero2" name="numero2">
+					<label for="num2">NUMERO 2</label>
+				</div>
+				
+				<div class="form-input num3">
+					<input type="text" id="numero3" name="numero3">
+					<label for="num3">NUMERO 3</label>
+				</div>
+
+				<div class="form-boton">
+					<input type="submit" name="guarda" value="CONOCER">
+					<input type="hidden" name="action" value="add">
+				</div>
+
+			</form>
+		</div>
+	</body>
+</html>
+

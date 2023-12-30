@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="estilo.css">
+		<link href="https://fonts.googlepis.com/css2?family=Rajdhani:wght@300&family=Raleway:wght@100&display=swap">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sah512-iecdLmaskl7CVkqkXkXNQ/ZH/XLvWZOJyj7Y7TCEM,Pd1YPasOZPMt/E0iPtmDFlB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-reffer"/>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+		<title>SUMA</title>
+	</head>
+
+	<body>
+		<div class="contenedor">
+			<form action="guarda.php" class="form" id="form" name="insertar" method="POST">
+				<p class"form-titulo">
+					<center>SUMA</center></p>
+
+				<div class="form-input minom">
+					<input type="text" id="minom" name="numero1">
+					<label for="minom">NUMERO 1</label>
+				</div>
+
+				<div class="form-input ap">
+					<input type="text" id="ap" name="numero2">
+					<label for="ap">NUMERO 2</label>
+				</div>
+				<div class="form-boton">
+					<input type="submit" name="guarda" value="SUMA">
+					<input type="hidden" name="action" value="add">
+				</div>
+
+			</form>
+		</div>
+	</body>
+</html>
+
